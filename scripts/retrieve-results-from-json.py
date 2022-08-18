@@ -5,7 +5,6 @@ data = json.load(f)
 with open(sys.argv[2], 'w') as r:
   if data['results']:
     for i in data['results']:
-      r.write("Semgrep Static Analysis Scan Results")
       r.write('\n')
       r.write('====================================')
       r.write('\n')
