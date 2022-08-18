@@ -20,8 +20,5 @@ with open(sys.argv[2], 'w') as r:
       r.write("Start Line: {}".format(i['start']['line']))
       r.write('\n')
       r.write('\n')
-  else:
-    r.write("Semgrep Static Analysis Scan Passed - No findings")
-    r.write('\n')
 r.close()
 r.close()
