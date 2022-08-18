@@ -19,7 +19,6 @@ with open(sys.argv[2], 'w') as r:
       r.write('\n')
       r.write("Start Line: {}".format(i['start']['line']))
       r.write('\n')
-      r.write('====================================')
       r.write('\n')
 r.close()
 r.close()
